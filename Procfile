@@ -1,1 +1,1 @@
-web: gunicorn imageprediction:app
+web: gunicorn Imageprediction:app
