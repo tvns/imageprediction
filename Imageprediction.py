@@ -3,7 +3,7 @@ import uuid
 import os
 from tensorflow.keras.models import load_model
 import numpy as np
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from tensorflow.keras.applications import MobileNet
 from PIL import Image, ImageFile
 from io import BytesIO
